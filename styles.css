@@ -1,0 +1,284 @@
+body {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+h2 {
+  color: rgb(35, 158, 35);  
+}
+
+h3{
+  color: rgb(35, 158, 35);  
+}
+
+h4{
+  color: rgb(35, 158, 35);  
+}
+
+.container-text {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-item {
+  border: 2px solid black;
+  border-radius: 5px;  
+  padding: 10px 15px;
+  margin: 0 5px;  
+}
+
+.navbar-nav .nav-item.active {
+  border-color: black;  
+   }
+
+.header {
+  background-color: rgb(35, 158, 35);  
+}
+
+.navbar-nav .nav-link {
+  background-color: rgb(35, 158, 35);  
+  color: rgb(35, 158, 35);  
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+.section {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+}
+
+
+.products {
+    background-color: black;
+    color:rgb(35, 158, 35);  
+    padding: 40px 0;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .form-control {
+    height: 40px; 
+  }
+  
+  .contact {
+    background-color: black;
+    color: rgb(35, 158, 35);  
+    padding: 40px 0;
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color: rgb(35, 158, 35);  
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .product-section {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+   .accordion-body {
+    border: 1px solid rgb(46, 198, 46);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .accordion-item {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+    overflow: hidden; 
+  }
+  
+.accordion-button {
+  background-color: rgb(35, 158, 35);
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}  
+  .accordion-button:hover {
+    background-color: rgb(35, 158, 35);  
+  }
+  
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.5);
+  }
+  
+  .accordion-button::after {
+    content: '\25B6'; 
+    font-size: 8px;
+    color: black;
+  }
+  
+    .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .message-box {
+    width: 100%;
+    height: 150px;
+  }
+
+  #accordionOne .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionTwo .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionThree .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionFour .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionFive .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionSix .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionSeven .accordion-button {
+    background-color: rgb(35, 158, 35); 
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #accordionExample .accordion-button:not(.collapsed) {
+    background-color: rgb(35, 158, 35); 
+  }
+    #accordionExample .accordion-header {
+    background-color: transparent;
+  }
+    #accordionExample .accordion-item {
+    border: 1px solid rgb(35, 158, 35);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+.custom-button {
+    font-size: 14px; /* Pas de gewenste grootte aan */
+    padding: 5px 10px; /* Pas de gewenste padding aan */
+    border-radius: 5px; /* Pas de gewenste afgeronde hoeken aan */
+    /* Voeg andere stijlen toe indien nodig */
+}
+ .accordion-button b {
+    font-size: 10px; /* Maakt de tekst kleiner */
+    text-align: left; /* Uitlijning van de tekst */
+    width: 100%; /* Volledige breedte van de tekst */
+}
+
+.accordion-body {
+    border: 1px solid rgb(35, 158, 35); /* Kaderkleur en -dikte */
+    padding: 10px; /* Ruimte binnen het kader */
+    border-radius: 5px; /* Afgeronde hoeken van het kader */
+}
+.input type{
+    font-size: 18px; /* Maakt de tekst kleiner */
+    text-align: left; /* Uitlijning van de tekst */
+    width: 50%; /* Volledige breedte van de tekst */
+}
+
+.click-hint{
+  margin: 5px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+/* Kader om de tekstvakken in het accordeon */
+.input type{
+    border: 1px solid rgb(35, 158, 35); /* Kaderkleur en -dikte */
+    padding: 10px; /* Ruimte binnen het kader */
+    border-radius: 5px; /* Afgeronde hoeken van het kader */
+}
+
+.accordion-button {
+  background-color: rgb(35, 158, 35);
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  position: relative; /* Added position relative for arrow icon */
+}
+
+.accordion-button:hover {
+  background-color: rgb(35, 158, 35);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.5);
+}
+
+.accordion-button::after {
+  content: '\25B6'; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 8px;
+  color: black;
+}
